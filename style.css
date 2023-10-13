@@ -74,6 +74,14 @@ body{
     backdrop-filter: blur(10px);
     border-radius: 10px;
 }
+.bg-green {
+    position: fixed;
+    width: calc(100% - 80px);
+    height: calc(100vh - 40px);
+    background-color: rgba(255, 0, 0, 0.368);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
 .container{
     z-index: 10;
     position: relative;

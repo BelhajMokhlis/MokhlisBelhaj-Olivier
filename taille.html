@@ -13,7 +13,7 @@
 </head>
 <body>
     <section class="taille">
-        <div class="white-bg">
+        <div class="white-bg" id="test">
             <nav>
                 <img src="./IMAGES/logo_zi.png" alt="" class="logo">
                 <ul>
@@ -31,12 +31,19 @@
                 <h3>Comment tailler un olivier ? : Les différentes tailles de l’olivier selon sa destination.</h3>
             </div>
             <div class="buttons">
-                <button class="taille-btn">L’olivier de production</button>
-                <button class="taille-btn">L’olivier d’ornement</button>
-                <button class="taille-btn">Quand tailler un olivier</button>
-                <button class="taille-btn">Matériel pour la taille </button>
+                <button class="taille-btn" onclick="popup1()">L’olivier de production</button>
+                <button class="taille-btn" id="botton2">L’olivier d’ornement</button>
+                <button class="taille-btn" id="botton3">Quand tailler un olivier</button>
+                <button class="taille-btn" id="botton4">Matériel pour la taille </button>
             </div>
         </div>
+        
     </section>
 </body>
+<script>
+    function popup1() {
+  document.getElementById("test").className = "bg-green";
+}
+
+</script>
 </html>
